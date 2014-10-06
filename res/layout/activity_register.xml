@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/d"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+   
+    <TextView
+        android:id="@+id/firstname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="firstName" />
+    
+      <EditText
+        android:id="@+id/etfname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:ems="10" />
+      
+      
+    <TextView
+        android:id="@+id/secondname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SecondName" />
+
+    <EditText
+        android:id="@+id/etsname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+      
+
+       <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:text="Password" />
+       
+        <EditText
+        android:id="@+id/etpass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:ems="10" />
+       
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="66dp"
+        android:text="repeatPassword" />
+
+    <EditText
+        android:id="@+id/etrepass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="61dp"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:ems="10" />
+
+
+    
+        <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="Button" />
+    
+   
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/d"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:typeface="serif"
+        android:layout_marginTop="10dp"
+        android:text="@string/user" />
+
+    <EditText
+        android:id="@+id/etuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        
+        android:id="@+id/tvpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:text="@string/pass" 
+        />
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10" 
+        />
+
+    <CheckBox
+        android:id="@+id/chshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:text="@string/show" />
+
+    <Button
+        android:id="@+id/btnLoginlogin"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Login"
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:background="@drawable/buttons_style" />
+
+    <Button
+        android:id="@+id/btnLoginback"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="120dp"
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:layout_height="40dp"
+        android:background="@drawable/buttons_style"
+        android:text="@string/back" />
+
+</LinearLayout>

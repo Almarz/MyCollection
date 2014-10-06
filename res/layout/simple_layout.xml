@@ -1,0 +1,10 @@
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:typeface="serif"
+    android:textSize="14sp"
+    android:textColor="#E504A5"
+    android:textAppearance="@style/gabriela"
+    />
